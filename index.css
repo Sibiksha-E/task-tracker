@@ -1,0 +1,14 @@
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+#filter{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.complete{
+    text-decoration: line-through;
+}

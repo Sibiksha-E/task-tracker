@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" id="input" />
+      <select id="types">
+        <option value="hard">Hard</option>
+        <option value="medium">Medium</option>
+        <option value="easy">Easy</option>
+      </select>
+      <select id="status">
+        <option value="yes">yes</option>
+        <option value="no">no</option>
+      </select>
+      <button id="add" onclick="add()">ADD TASK</button>
+      <div class="filter">
+        <label for="filter">Filter :</label>
+        <select id="filter">
+          <option value="all">all</option>
+          <option value="completed">completed</option>
+          <option value="Incomplete">Incomplete</option>
+        </select>
+      </div>
+
+      <ul id="output"></ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
