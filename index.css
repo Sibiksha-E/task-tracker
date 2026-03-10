@@ -1,14 +1,16 @@
 
 body{
-    background-color: black;
+    background-color: rgb(3, 10, 80);
     color: aliceblue;
+    font-family: Arial, sans-serif;
 }
 #filter{
     background-color: black;
     color: white;
     padding: 10px;
-    border: none;
+
 }
 .complete{
     text-decoration: line-through;
+    color: rgb(159, 159, 159);
 }
